@@ -1,0 +1,5 @@
+@(name: String)(implicit assetsFinder: AssetsFinder)
+<html>
+    <title>Welcome Page</title>
+    <body style="background-image: url('@assetsFinder.path("images/scala.png")'); background-repeat: no-repeat;">welcome @name</body>
+</html>
