@@ -1,3 +1,3 @@
-object HelloWorld extends App {
-println("Hello world SBT")
+object HelloWorld{
+  println("Hello SBT")
 }
